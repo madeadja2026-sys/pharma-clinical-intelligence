@@ -1,0 +1,11 @@
+{
+  "app": "PHARMA CLINICAL INTELLIGENCE",
+  "schema": 1,
+  "version": "1.0.0",
+  "reviewedAt": "2026-10-31",
+  "status": "starter-package-no-curated-updates",
+  "notice": "Paket awal struktur pembaruan. Konten klinis hanya boleh ditambahkan setelah verifikasi sumber ilmiah dan peninjauan ahli.",
+  "drugs": [],
+  "interactions": [],
+  "sources": []
+}
