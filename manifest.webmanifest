@@ -1,0 +1,25 @@
+{
+  "name": "PHARMA CLINICAL INTELLIGENCE",
+  "short_name": "PHARMA CI",
+  "description": "Media pembelajaran farmakologi klinis dan referensi obat",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#f3f7fa",
+  "theme_color": "#123b52",
+  "icons": [
+    {
+      "src": "./icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
