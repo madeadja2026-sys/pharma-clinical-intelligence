@@ -47,6 +47,6 @@ $('importNotes').onchange=async e=>{let f=e.target.files[0];if(!f)return;try{let
 $('caseReset').onclick=()=>{['caseTitle','caseScenario','caseContext','caseMeds','caseQuestion','caseResult','caseSource'].forEach(id=>$(id).value='');$('caseOutput').classList.remove('show')};
 $('sourceSearch').onclick=()=>openSearch($('sourceQuery').value+' clinical pharmacology systematic review guideline official drug information');
 $('net').textContent=navigator.onLine?'ONLINE':'OFFLINE';addEventListener('online',()=>{$('net').textContent='ONLINE'});addEventListener('offline',()=>{$('net').textContent='OFFLINE'});
-dbOpen().then(()=>{renderDrugList();renderNotes()}).catch(e=>console.error(e));
+dbOpen().then(()=>{renderDrugList();renderNotes();initCompare()}).catch(e=>console.error(e));
 if('serviceWorker'in navigator)addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(()=>{}));
 })();
